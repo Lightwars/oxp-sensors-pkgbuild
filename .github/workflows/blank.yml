@@ -35,5 +35,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag_name: oxp-sensors-v0.1.r0.g0e0a85f0
-          files: oxp-sensors/oxp-sensors-v0.1.r0.g0e0a85f0-1-x86_64.pkg.tar.zst
+          tag_name: oxp-sensors-v0.1.r0.g0e0a85f
+          files: oxp-sensors/oxp-sensors-v0.1.r0.g0e0a85f-1-x86_64.pkg.tar.zst
