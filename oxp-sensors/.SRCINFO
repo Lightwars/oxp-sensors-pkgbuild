@@ -1,0 +1,16 @@
+pkgbase = oxp-sensors
+	pkgdesc = Linux fan control driver for Ayaneo x86 handhelds
+	pkgver = v0.1.r0.g0e0a85f0
+	pkgrel = 1
+	url = https://gitlab.com/Lightwars/oxp-sensors
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = dkms
+	conflicts = oxp-sensors
+	source = oxp-sensors::git+https://gitlab.com/Lightwars/oxp-sensors.git
+	source = dkms.conf
+	sha256sums = SKIP
+	sha256sums = f325b751c8a81416a75c2c1e7a7bc9ca46ae0fa3b44d4ccc09593274be1b2dc7
+
+pkgname = oxp-sensors
